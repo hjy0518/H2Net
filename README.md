@@ -1,10 +1,10 @@
-# Beyond Appearance: Camouflaged Object Detection via Geometric Structure
+# H^2Net: Homo- and Heterogeneous Networks for Unified Segmentation
 
 > [**H$^2$Net: Homo- and Heterogeneous Networks for Unified Segmentation**]()
 >
 > **IJCAI 2026**
 >
-> **MDE & COD**
+> **Unified segmentation**
 
 **Abstract**
 
@@ -19,40 +19,40 @@ Net incorporates a Cross-Modal Structure Enhancement Module (CSEM), which integr
 </p>
 
 ### Prediction results
-All prediction results can be found in [Baidu Netdisk](https://pan.baidu.com/s/1PqmeqHECilBcJs98x_SuPg?pwd=1234), code: 1234.
+All prediction results can be found in [Baidu Netdisk](https://pan.baidu.com/s/1qJESkthTq84gESfdUf9XvA?pwd=1234), code: 1234.
 
 ### Training
-The training stage for DepthSAM:
+The training stage for H$^2$Net:
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 train.py
 ```
 
 **The training code of `CORAL` will be released  after the paper is published.**
 ### Evaluation
-All checkpoints can be found in [Baidu Netdisk](https://pan.baidu.com/s/1BnOzQYb1OZAJCiaBIOjXdA?pwd=1234), code: 1234.
+All checkpoints can be found in [Baidu Netdisk](https://pan.baidu.com/s/1ESZeXPoHYtuCJKp3j39kOw?pwd=1234), code: 1234.
 ```
 python test.py
 ```
-Performance of DepthSAM
+Performance of H$^2$Net
 ![alt text](Images/Table1.png)
 
 
 
 ## Acknowledgements
 
-Our method builds upon a series of foundation models, including [SAM](https://github.com/facebookresearch/segment-anything) and [Depth Anything](https://github.com/DepthAnything/Depth-Anything-V2). Thanks for their excellent contributions.
+Our method builds upon a series of foundation models, including [SAM](https://github.com/facebookresearch/segment-anything). Thanks for their excellent contributions.
 
 ## Citing
 
 If you find our work interesting, please consider using the following BibTeX entry:
 
 ```latex
-@InProceedings{Han_2026_CVPR,
-    author    = {Han, Jinyu and Wu, Changguang and Sun, Fuming and Tang, Jinhui},
-    title     = {Beyond Appearance: Camouflaged Object Detection via Geometric Structure},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+@InProceedings{,
+    author    = {},
+    title     = {},
+    booktitle = {},
     month     = {June},
     year      = {2026},
-    pages     = {25830-25840}
+    pages     = {}
 }
 ```

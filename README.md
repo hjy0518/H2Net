@@ -1,6 +1,6 @@
 # H^2Net: Homo- and Heterogeneous Networks for Unified Segmentation
 
-> [**H$^2$Net: Homo- and Heterogeneous Networks for Unified Segmentation**]()
+> [**$H^2$Net: Homo- and Heterogeneous Networks for Unified Segmentation**]()
 >
 > **IJCAI 2026**
 >
@@ -22,13 +22,14 @@ Net incorporates a Cross-Modal Structure Enhancement Module (CSEM), which integr
 All prediction results can be found in [Baidu Netdisk](https://pan.baidu.com/s/1qJESkthTq84gESfdUf9XvA?pwd=1234), code: 1234.
 
 ### Training
-The training stage for H$^2$Net:
+The training stage for $H^2$Net:
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 train.py
 ```
 
 **The training code of `CORAL` will be released  after the paper is published.**
 ### Evaluation
+As the original weights were accidentally deleted, we have retrained a new set of weights.
 All checkpoints can be found in [Baidu Netdisk](https://pan.baidu.com/s/1ESZeXPoHYtuCJKp3j39kOw?pwd=1234), code: 1234.
 ```
 python test.py
